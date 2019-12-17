@@ -1,3 +1,5 @@
+> This is a fork of an existing builpack. This buildpack has been forked to ensure that we can have better understanding and control over what the buildpack accesses, and what operations it performs, specifically around accessing the [environment directory](https://devcenter.heroku.com/articles/buildpack-api#bin-compile-summary). We decided to fork the buildpack rather than point at a specific sha to ensure that the buildpack is still available in the case of the target repository being removed.
+
 # puppeteer-heroku-buildpack
 
 **This fork of the [jontewks buildpack](https://elements.heroku.com/buildpacks/jontewks/puppeteer-heroku-buildpack)
